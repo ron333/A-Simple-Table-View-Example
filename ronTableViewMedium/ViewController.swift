@@ -43,11 +43,6 @@ class ViewController: UIViewController {
         let aCell = self.tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! TableViewCell
         aCell.titleLabel.text = self.objects[indexPath.row]
         
-    // Alternate the cell background color
-        if(indexPath.row % 2 == 0) {
-            aCell.backgroundColor = UIColor(red: 0, green: 1, blue: 0, alpha: 1)
-        }
-        
         let chevron = UIImage(named: "chevron.png")
         aCell.accessoryType = .DisclosureIndicator
         aCell.accessoryView = UIImageView(image: chevron!)
