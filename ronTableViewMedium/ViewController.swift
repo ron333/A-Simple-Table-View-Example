@@ -15,9 +15,18 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.objects.append("iPhone")
         self.objects.append("Apple Watch")
-        self.objects.append("Mac")    }
+        self.objects.append("iPhone 6 Plus")
+        self.objects.append("iPhone 6")
+        self.objects.append("iPad Air 2")
+        self.objects.append("iPad mini 3")
+        self.objects.append("MacBook")
+        self.objects.append("MacBook Air")
+        self.objects.append("MacBook Pro")
+        self.objects.append("iMac")
+        self.objects.append("Mac Pro")
+        self.objects.append("Mac mini")
+    }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int
     {
@@ -33,6 +42,15 @@ class ViewController: UIViewController {
     {
         let aCell = self.tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! TableViewCell
         aCell.titleLabel.text = self.objects[indexPath.row]
+        
+    // Alternate the cell background color
+        if(indexPath.row % 2 == 0) {
+            aCell.backgroundColor = UIColor(red: 0, green: 1, blue: 0, alpha: 1)
+        }
+        
+        let chevron = UIImage(named: "chevron.png")
+        aCell.accessoryType = .DisclosureIndicator
+        aCell.accessoryView = UIImageView(image: chevron!)
         return aCell
     }
     

@@ -10,41 +10,29 @@
 	<string>ronTableViewMedium</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>4CD6D2EAE8004CB30B6D8CF369D372C84D97DF7A</key>
-		<string>https://github.com/ron333/A-Simple-Table-View-Example.git</string>
-		<key>5D0BFA7EAFE1CFDCC43A9B36C4AC0144C126871A</key>
+		<key>E5A7B7156F926D8BDDD05988C0640ECB12F490B6</key>
 		<string>https://github.com/ron333/A-Simple-Table-View-Example.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>ronTableViewMedium.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>4CD6D2EAE8004CB30B6D8CF369D372C84D97DF7A</key>
+		<key>E5A7B7156F926D8BDDD05988C0640ECB12F490B6</key>
 		<string>../..</string>
-		<key>5D0BFA7EAFE1CFDCC43A9B36C4AC0144C126871A</key>
-		<string>../..ronTableViewMedium/</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/ron333/A-Simple-Table-View-Example.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>4CD6D2EAE8004CB30B6D8CF369D372C84D97DF7A</string>
+	<string>E5A7B7156F926D8BDDD05988C0640ECB12F490B6</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>4CD6D2EAE8004CB30B6D8CF369D372C84D97DF7A</string>
-			<key>IDESourceControlWCCName</key>
-			<string>ronTableViewMedium</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>5D0BFA7EAFE1CFDCC43A9B36C4AC0144C126871A</string>
+			<string>E5A7B7156F926D8BDDD05988C0640ECB12F490B6</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ronTableViewMedium</string>
 		</dict>
